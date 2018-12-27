@@ -1,0 +1,174 @@
+@import '../main/main.wxss';
+
+page {
+  margin: 0;
+  background: #2a82b1;
+}
+
+.contains {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin-top: 60rpx;
+}
+
+.outer-circle {
+  position: relative;
+  width: 600rpx;
+  height: 600rpx;
+  border-radius: 50%;
+  border: 2px dashed #ce6a49;
+}
+
+.inner-circle {
+  width: 400rpx;
+  height: 400rpx;
+  border: 20px solid #7db7e5;
+  border-radius: 50%;
+  box-shadow: 8rpx 8rpx 16rpx #539abf;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(to bottom right, #022034, #0a7cbf);
+  overflow: hidden;
+}
+
+.inner-circle .set {
+  text-align: left;
+  margin-top: 50rpx;
+  padding-left: 60rpx;
+}
+
+.inner-circle .icon-taiyang ,.inner-circle .icon-snow,.inner-circle .icon-che ,.inner-circle .icon-servicejienengbutie{
+  font-size: 60rpx;
+  margin-top: 30rpx;
+}
+.inner-circle .temperature {
+  font-size: 80rpx;
+  margin: 30rpx 0;
+}
+
+.icon-fengsu {
+  position: relative;
+  padding: 4rpx;
+  border: 1rpx solid #a7a7a7;
+  border-radius: 50%;
+  background: #181818;
+}
+.chooseStyle  .active {
+  color: #fff;
+  background: #42BE45;
+  border: 1px solid #42BE45;
+}
+.icon-fengsu:after {
+  position: absolute;
+  font-size: 28rpx;
+  color: #abc8bc;
+}
+
+.zong {
+  position: absolute;
+  top: 120rpx;
+  left: 10rpx;
+}
+
+.zong:after {
+  content: '中';
+  top: -40rpx;
+  left: -20rpx;
+}
+
+.gao {
+  position: absolute;
+  top: 120rpx;
+  right: 10rpx;
+}
+
+.gao:after {
+  content: '高';
+  top: -40rpx;
+  right: -20rpx;
+}
+
+.auto {
+  position: absolute;
+  top: 500rpx;
+  right: 70rpx;
+}
+
+.auto:after {
+  content: 'AUTO';
+  top: -20rpx;
+  right: -90rpx;
+}
+
+.di {
+  position: absolute;
+  top: 500rpx;
+  left: 70rpx;
+}
+
+.di:after {
+  content: '低';
+  top: -20rpx;
+  left: -40rpx;
+}
+
+.baffle {
+  width: 362rpx;
+  height: 64rpx;
+  position: absolute;
+  top: 542rpx;
+  left: 120rpx;
+  background: #2a82b1;
+}
+
+.control {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 600rpx;
+  font-size: 0;
+}
+
+.control .iconfont {
+  flex: 1;
+  font-size: 60rpx;
+  position: relative;
+  padding-bottom: 46rpx;
+  text-align: center;
+}
+
+.control .active {
+  color: #d2633b;
+}
+
+.control .iconfont:after {
+  min-width: 100rpx;
+  text-align: center;
+  font-size: 30rpx;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.gr:after {
+  content: '供热';
+}
+
+.zl:after {
+  content: '制冷';
+}
+
+.ss:after {
+  content: '舒适';
+}
+
+.jn:after {
+  content: '节能';
+}

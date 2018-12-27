@@ -1,0 +1,83 @@
+<view class='infos-wrap'>
+  <view class='row'>
+    <view class='lable'>你所在位置:</view>
+    <view class='content'>郑州市金水区经三路北21号</view>
+  </view>
+  <view class='row'>
+    <view class='lable'>室外温度:</view>
+    <view class='content'>20c</view>
+  </view>
+  <view class='row'>
+    <view class='lable'>楼栋名称/房屋编号:</view>
+    <view class='content'>A1-1/11-1-02</view>
+  </view>
+  <view class='row'>
+    <view class='item'>
+      <view class='lable'>平均温度:</view>
+      <view class='content'>20c</view>
+    </view>
+    <view class='item'>
+      <view class='lable'>最低温度:</view>
+      <view class='content'>18c</view>
+    </view>
+    <view class='item'>
+      <view class='lable'>最高温度:</view>
+      <view class='content'>22c</view>
+    </view>
+  </view>
+</view>
+<view class='room-wrap'>
+  <block wx:if="{{roomList.length}}" wx:for="{{roomList}}" wx:key="unique">
+    <view bindtap='toRoom' data-room="{{item.room}}" class="item {{ item.status ? '':'item-off'}}">
+      <view catchtap='itemSwitch' class='power iconfont icon-dianyuan-guan' data-index='{{index}}'></view>
+      <view class='room'>{{item.room}}</view>
+      <view class='indicator'>
+        <text>{{item.indicator[0]}}</text>
+        <text>{{item.indicator[1]}}</text>
+        <text>{{item.indicator[2]}}</text>
+      </view>
+      <view class='iconfont icon-youjiantou'></view>
+    </view>
+  </block>
+  <view class='time-change'>
+    <view class='tab'>
+      <view bindtap="tap" class="{{currIndex==0?'active':''}}" data-index="0">日</view>
+      <view bindtap='tap' class="{{currIndex==1?'active':''}}" data-index="1">周</view>
+      <view bindtap='tap' class="{{currIndex==2?'active':''}}" data-index="2">月</view>
+      <view bindtap='tap' class="{{currIndex==3?'active':''}}" data-index="3">年</view>
+    </view>
+    <view class='tab-con'>
+      <view class='row'>
+        <view class='lable'>平均能耗：</view>
+        <view class='con'>10</view>
+      </view>
+      <view class='row'>
+        <view class='lable'>最高能耗：</view>
+        <view class='con'>10</view>
+      </view>
+      <view class='row'>
+        <view class='lable'>最低能耗：</view>
+        <view class='con'>10</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class='tab-fixed'>
+  <view class='item' bindtap='mastetSwith'>
+    <text class="iconfont icon-dianyuan-guan mastet-swith {{mastetSwith?  '':'mastet-swith-off'}}"></text>
+    <view wx:if="{{mastetSwith}}">开</view>
+    <view wx:else>关</view>
+  </view>
+  <view class='item' bindtap='comfort'>
+    <text class='iconfont icon-shushidu'></text>
+    <view>舒适</view>
+  </view>
+  <view class='item' bindtap='energy'>
+    <text class='iconfont icon-servicejienengbutie'></text>
+    <view>节能</view>
+  </view>
+  <view class='item'>
+    <text class='iconfont icon-shijian'></text>
+    <view>定时</view>
+  </view>
+</view>

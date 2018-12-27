@@ -1,0 +1,11 @@
+<view class='zhanghao'>
+  <view class='p'>设置新密码</view>
+  <input placeholder='设置新密码' />
+</view>
+<view class='mima'>
+  <view class='p'>重新输入新密码</view>
+  <input placeholder='重新输入新密码' />
+</view>
+<view class='log'>
+  <view class='denglu'>提交</view>
+</view>

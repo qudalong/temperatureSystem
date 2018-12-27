@@ -1,0 +1,43 @@
+<view class='register-wrap'>
+  <view class='row'>
+    <view class='lable'>用户名</view>
+    <input class='input' type='text' placeholder='请输入用户名' />
+  </view>
+  <view class='row'>
+    <view class='lable'>手机号码</view>
+    <input class='input' type='number' placeholder='请输入手机号' />
+  </view>
+  <view class='row'>
+    <view class='lable'></view>
+    <input class='input' type='number' placeholder='请输入验证码' />
+    <view class='get-code' hover-class='hover'>获取验证码</view>
+  </view>
+  <view class='row'>
+    <view class='lable'>用户昵称</view>
+    <input class='input' type='text' placeholder='请输入昵称' />
+  </view>
+  <view class='row'>
+    <view class='lable'>登录密码</view>
+    <input class='input' type='password' placeholder='请输入登录密码' />
+  </view>
+  <view class='row'>
+    <view class='lable'>确认密码</view>
+    <input class='input' type='password' placeholder='确认密码' />
+  </view>
+  <view class='row'>
+    <view class='lable'>社区名称</view>
+    <input bindtap='toCommunity' class='input' type='text' disabled='disabled'  value='A1' placeholder='请输入社区名称' />
+  </view>
+  <view class='row'>
+    <view class='lable'>楼栋编号</view>
+    <input bindtap='toBuilding' class='input' type='text' disabled='disabled'  value='A1-2' placeholder='请输入楼栋编号' />
+  </view>
+  <view class='row'>
+    <view class='lable'>房屋编号</view>
+    <input class='input' type='text' placeholder='请输入房屋编号' />
+  </view>
+  <view class='row'>
+    <view class='btn' hover-class='hover'>注册</view>
+    <view class='btn cancle' hover-class='hover'>取消</view>
+  </view>
+</view>

@@ -1,0 +1,25 @@
+@import '../login/login.wxss';
+.gain{
+  position: relative;
+  margin-top: 50rpx; 
+}
+.gain .huoqu{
+  font-size: 28rpx;
+  color: #6b6b6b;
+  width: 180rpx;
+  height: 35rpx;
+  padding: 5rpx 40rpx;
+  border: 1px solid #ccc;
+  border-radius: 20rpx;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  text-align: center;
+}
+
+.zhanghao .p, .mima .p {
+  font-size: 32rpx;
+}
+
+

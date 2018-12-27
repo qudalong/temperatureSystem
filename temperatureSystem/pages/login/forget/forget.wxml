@@ -1,0 +1,5 @@
+<view class='p'>请输入手机号</view>
+<view>
+  <input placeholder='请输入手机号码' />
+</view>
+<view bindtap='getCode' class='btn' hover-class='hover'>下一步</view>

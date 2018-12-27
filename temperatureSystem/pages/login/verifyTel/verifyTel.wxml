@@ -1,0 +1,6 @@
+<view class='p'>请输入验证码</view>
+<view class='gain'>
+  <input placeholder='请输入验证码'/>
+  <view class='huoqu'>重新获取(40s)</view>
+</view>
+<view class='btn' hover-class='hover'>提交</view>

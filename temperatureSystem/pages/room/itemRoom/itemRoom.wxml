@@ -1,0 +1,29 @@
+<view class='contains'>
+  <view class='outer-circle'>
+    <view class='chooseStyle'>
+      <text bindtap='chooseStyle' data-style='0' class="iconfont icon-fengsu zong {{style==0?'active':''}}"></text>
+      <text bindtap='chooseStyle' data-style='1' class="iconfont icon-fengsu gao {{style==1?'active':''}}"></text>
+      <text bindtap='chooseStyle' data-style='2' class="iconfont icon-fengsu auto {{style==2?'active':''}}"></text>
+      <text bindtap='chooseStyle' data-style='3' class="iconfont icon-fengsu di {{style==3?'active':''}}"></text>
+    </view>
+    <view class='baffle'></view>
+    <view class='inner-circle'>
+      <view wx:if="{{index==0}}" class='iconfont icon-taiyang'></view>
+      <view wx:elif="{{index==1}}" class='iconfont icon-snow'></view>
+      <view wx:elif="{{index==2}}" class='iconfont icon-che'></view>
+      <view wx:else class='iconfont icon-servicejienengbutie'></view>
+      <view class='set'>设定</view>
+      <view class='temperature'>25c</view>
+      <view wx:if="{{style==0}}" class='status'>中风</view>
+      <view wx:elif="{{style==1}}" class='status'>高风</view>
+      <view wx:elif="{{style==2}}" class='status'>AUTO</view>
+      <view wx:else class='status'>低风</view>
+    </view>
+  </view>
+  <view class='control'>
+    <view bindtap='shooseMode' data-index='0' class="iconfont icon-taiyang gr {{index==0?'active':''}}"></view>
+    <view bindtap='shooseMode' data-index='1' class="iconfont icon-snow zl {{index==1?'active':''}}"></view>
+    <view bindtap='shooseMode' data-index='2' class="iconfont icon-che ss {{index==2?'active':''}}"></view>
+    <view bindtap='shooseMode' data-index='3' class="iconfont icon-servicejienengbutie jn {{index==3?'active':''}}"></view>
+  </view>
+</view>

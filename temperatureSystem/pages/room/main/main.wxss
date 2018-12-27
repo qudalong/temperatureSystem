@@ -1,0 +1,182 @@
+page {
+  margin: 0;
+  background: linear-gradient(to bottom right, #2a82b1, #184b66);
+}
+
+.infos-wrap {
+  margin-bottom: 20rpx;
+  background: linear-gradient(to bottom right, #ebebeb, #999);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 30rpx;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 30rpx;
+}
+
+.row .lable {
+  max-width: 280rpx;
+  color: #666;
+  margin-right: 20rpx;
+}
+
+.row .content {
+  flex: 1;
+  text-align: left;
+}
+
+.row:last-child {
+  border-bottom: 0;
+}
+
+.row .item {
+  display: flex;
+  align-items: center;
+}
+
+.room-wrap {
+  background: linear-gradient(to right, #2981b0, #2577a2);
+}
+
+.room-wrap .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10rpx 20rpx;
+  background: linear-gradient(to right, #1269b0, #031627);
+  border-top: 1rpx solid #f0f0f0;
+  border-bottom: 1rpx solid #f0f0f0;
+  margin-bottom: 20rpx;
+}
+
+.room-wrap .room {
+  width: 200rpx;
+  text-align: center;
+  color: #fff;
+}
+
+.room-wrap .indicator {
+  flex: 1;
+  text-align: center;
+  color: #d2633b;
+}
+
+.room-wrap .indicator text {
+  margin-right: 30rpx;
+}
+
+.iconfont {
+  font-size: 40rpx;
+  color: #fff;
+}
+
+.room-wrap  .power {
+  border: 1px dashed #d2633b;
+  padding: 20rpx;
+  border-radius: 50%;
+  color: #d2633b;
+  background: rgb(136, 175, 207);
+}
+
+.item-off {
+  background: #81afc7;
+}
+
+.item-off .power {
+  border: 1px dashed #fff;
+  background: #e4e4e4;
+  color: #fff;
+}
+
+.room-wrap {
+  padding: 20rpx 0;
+  margin-bottom: 140rpx;
+}
+
+.item-off .icon-youjiantou, .item-off .room, .item-off .indicator {
+  color: gray !important;
+}
+
+.time-change {
+  border-radius: 20rpx;
+  background: #d9e8f1;
+  padding: 20rpx 30rpx;
+  margin: 0 30rpx;
+  background: linear-gradient(to right, #d9e8f1, #858b8f);
+}
+
+.time-change .tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.time-change .tab view {
+  flex: 1;
+  height: 60rpx;
+  text-align: center;
+}
+
+.time-change .tab .active {
+  color: #009688;
+  border-bottom: 2px solid #009688;
+}
+
+.tab-con {
+  padding-top: 20rpx;
+}
+
+.tab-con .row {
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+  padding: 10rpx;
+  border-bottom: 1px solid transparent;
+}
+
+.tab-con .con {
+  flex: 1;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.tab-fixed {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #fff;
+  padding: 10rpx 0;
+}
+
+.tab-fixed .item {
+  flex: 1;
+  text-align: center;
+  font-size: 28rpx;
+}
+
+.tab-fixed .item text {
+  color: #000;
+  font-size: 40rpx;
+}
+
+.tab-fixed .item .mastet-swith {
+  padding: 2rpx;
+  border-radius: 50%;
+  color: #d2633b;
+  background: #ddd;
+}
+
+.tab-fixed .item .mastet-swith-off {
+  color: #fff;
+}
+
+.tab-fixed .item .icon-servicejienengbutie {
+  color: #196c3f;
+}

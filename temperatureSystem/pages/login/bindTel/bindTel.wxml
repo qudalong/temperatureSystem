@@ -1,0 +1,11 @@
+<view class='zhanghao'>
+  <view class='p'>绑定手机号</view>
+  <input placeholder='请输入手机号码' />
+</view>
+<view class='gain'>
+  <input placeholder='请输入验证码' />
+  <view class='huoqu'>获取验证码</view>
+</view>
+<view class='log'>
+  <view class='btn'>绑定</view>
+</view>

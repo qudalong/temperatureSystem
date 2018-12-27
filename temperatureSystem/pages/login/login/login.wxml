@@ -1,0 +1,24 @@
+<view class='main'>
+  <view class='zhanghao'>
+    <view class='p'>登陆账号</view>
+    <input placeholder='请输入手机号码/用户名' />
+  </view>
+  <view class='mima'>
+    <view class='p'>登陆密码</view>
+    <input placeholder='请输入登录密码' />
+    <view class='duanxin'>用短信验证码登录</view>
+  </view>
+  <view class='log'>
+    <view bindtap='login' class='btn'  hover-class='hover'>登录</view>
+    <view bindtap='register' class='zhuce'  hover-class='hover'>注册账号</view>
+    <view bindtap='forgetPwd' class='wangji'  hover-class='hover'>忘记密码</view>
+  </view>
+  <view class='footer'>
+    <view class='top'>
+      <view class='xian'></view>
+      <view class='sanfang'>第三方账号登陆</view>
+      <view class='xian'></view>
+    </view>
+    <text class='iconfont icon-weixin'></text>
+  </view>
+</view>

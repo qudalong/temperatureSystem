@@ -1,0 +1,15 @@
+@import '../login/login.wxss';
+.gain{
+  position: relative;
+}
+.gain .huoqu{
+  font-size: 28rpx;
+  color: #6b6b6b;
+  padding: 10rpx 20rpx;
+  border: 1px solid #ccc;
+  border-radius: 10rpx;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right:20rpx;
+}

@@ -1,0 +1,50 @@
+.main {
+  margin: 0 auto;
+  margin-top: 50rpx;
+}
+
+.zhanghao, .mima, .log {
+  width: 100%;
+  margin: 20rpx auto;
+}
+
+.zhanghao .p, .mima .p {
+  font-size: 32rpx;
+}
+
+input {
+  width: 100%;
+  padding: 14rpx 0;
+  border: 1px solid #ccc;
+  border-radius: 8rpx;
+  margin-top: 12rpx;
+  font-size: 32rpx;
+}
+.mima{
+  margin-top: 60rpx;
+}
+.mima .duanxin {
+  display: block;
+  font-size: 32rpx;
+  color: #6b6b6b;
+  margin-top: 30rpx;
+}
+
+.mima .duanxin:hover {
+  color: blue;
+}
+
+.log {
+  overflow: hidden;
+}
+
+.denglu {
+  width: 96%;
+  margin: 80rpx auto 30rpx;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 40rpx;
+  padding: 20rpx 0;
+  background-color: #609fbd;
+}

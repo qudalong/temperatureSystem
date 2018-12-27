@@ -1,0 +1,32 @@
+page{
+  background: #f0f0f0;
+}
+.block-warp{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-bottom: 30rpx;
+}
+.block-warp .mark{
+ border-bottom: 1px solid #f0f0f0;
+ padding-bottom: 10rpx;
+}
+.block-warp .block{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background: #FFF;
+  padding-bottom: 30rpx;
+}
+.block-warp .block .item{
+  padding: 20rpx 0;
+  width: 136rpx;
+  text-align: center;
+  background: #ccc;
+  border-radius: 10rpx;
+  margin: 30rpx 0 0 30rpx;
+  color: #fff;
+}
+.block-warp .block .active{
+  background: #00B26A;
+}

@@ -1,0 +1,39 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 30rpx;
+}
+
+.row .get-code {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20rpx;
+  padding: 10rpx;
+  border-radius: 10rpx;
+  background: gray;
+  color: #fff;
+  z-index: 10;
+  font-size:30rpx;
+}
+.row .lable {
+  width: 150rpx;
+}
+
+.row .input {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 10rpx;
+  padding: 14rpx 0 14rpx 20rpx;
+}
+.btn{
+  padding: 24rpx 100rpx;
+  border-radius: 10rpx;
+  background: #609fbd;
+  color: #fff;
+}
+.cancle{
+  background: #ccc;
+}
