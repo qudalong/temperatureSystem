@@ -28,7 +28,7 @@
 </view>
 <view class='room-wrap'>
   <block wx:if="{{roomList.length}}" wx:for="{{roomList}}" wx:key="unique">
-    <view bindtap='toRoom' data-room="{{item.room}}" class="item {{ item.status ? '':'item-off'}}">
+    <view bindtap='toRoom' data-room="{{item.room}}" class="item {{ item.status ? '':'item-off'}}" hover-class='hover'>
       <view catchtap='itemSwitch' class='power iconfont icon-dianyuan-guan' data-index='{{index}}'></view>
       <view class='room'>{{item.room}}</view>
       <view class='indicator'>

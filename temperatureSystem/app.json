@@ -1,14 +1,14 @@
 {
   "pages":[
+    "pages/register/register/register",
+    "pages/register/community/community",
+    "pages/login/login/login",
     "pages/room/main/main",
     "pages/room/itemRoom/itemRoom",
-    "pages/login/login/login",
     "pages/login/verifyTel/verifyTel",
     "pages/login/bindTel/bindTel",
     "pages/login/forget/forget",
     "pages/login/reSet/reSet",
-    "pages/register/register/register",
-    "pages/register/community/community",
     "pages/register/building/building",
     "pages/index/index"
   ],

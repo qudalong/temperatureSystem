@@ -5,7 +5,21 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+     list:[
+       {
+         lable:'A',
+         comm: ['A1', 'A2', 'A3', 'A4', 'A5']
+       },
+       {
+         lable:'B',
+         comm: ['B1', 'B2', 'B3', 'B4', 'B5']
+       },
+       {
+         lable:'C',
+         comm: ['C1', 'C2', 'C3', 'C4', 'C5']
+       }
+     ],
+    community: ''//社区名
   },
 
   /**
@@ -13,6 +27,12 @@ Page({
    */
   onLoad: function (options) {
 
+  },
+
+  chooseItem(e){
+    this.setData({
+      community: e.currentTarget.dataset.txt
+    })
   },
 
   /**
@@ -40,7 +60,12 @@ Page({
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-
+    const pages = getCurrentPages();
+    const currPage = pages[pages.length - 1];   //当前页面
+    const prevPage = pages[pages.length - 2];  //上一个页面
+    prevPage.setData({
+      community: this.data.community
+    });
   },
 
   /**

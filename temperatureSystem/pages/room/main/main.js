@@ -34,6 +34,18 @@ Page({
     this.setData({
       roomList
     })
+    //单个开关状态控制总开关状态
+    roomList.forEach(room => {
+         if(room.status==0){
+           this.setData({
+             mastetSwith:false
+           })
+         }else{
+           this.setData({
+             mastetSwith: true
+           })
+         }
+    })
   },
 
   //总开关
@@ -45,7 +57,7 @@ Page({
       roomList.forEach(room => {
         room.status = 1
       })
-    }else{
+    } else {
       roomList.forEach(room => {
         room.status = 0
       })
@@ -80,7 +92,7 @@ Page({
   },
 
   //调到单个房间
-  toRoom(e){
+  toRoom(e) {
     const room = e.currentTarget.dataset.room
     wx.navigateTo({
       url: `../itemRoom/itemRoom?room=${room}`,

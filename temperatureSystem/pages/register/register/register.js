@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    community: '',//社区名
+    building: ''//楼栋编号
   },
 
   /**
