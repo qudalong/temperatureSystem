@@ -34,6 +34,18 @@ Page({
     this.setData({
       roomList
     })
+    //单个开关状态控制总开关状态
+    roomList.forEach(room => {
+         if(room.status==0){
+           this.setData({
+             mastetSwith:false
+           })
+         }else{
+           this.setData({
+             mastetSwith: true
+           })
+         }
+    })
   },
 
   //总开关

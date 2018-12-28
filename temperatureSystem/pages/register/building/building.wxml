@@ -1,23 +1,8 @@
-<view class='block-warp'>
-  <view class='mark'>A</view>
+<view wx:if="{{list.length}}" class='block-warp' wx:for="{{list}}" wx:key="unique">
+  <view class='mark'>{{item.lable}}</view>
   <view class='block'>
-    <view class='item'>A1-1</view>
-    <view class='item'>A1</view>
-    <view class='item'>A1-1</view>
-    <view class='item'>A1-1</view>
-    <view class='item'>A1</view>
-    <view class='item'>A1-112</view>
-    <view class='item'>A12-110</view>
-    <view class='item'>A1-1</view>
-  </view>
-</view>
-<view class='block-warp'>
-  <view class='mark'>B</view>
-  <view class='block'>
-    <view class='item active'>B1</view>
-    <view class='item'>B1-1</view>
-    <view class='item'>B1</view>
-    <view class='item'>B12-110</view>
-    <view class='item'>B1-1</view>
+    <block wx:for="{{item.comm}}" wx:key="unique" wx:for-item="item2">
+      <view bindtap='chooseItem' class="item {{building==item2?'active':''}}"  data-txt="{{item2}}">{{item2}}</view>
+    </block>
   </view>
 </view>

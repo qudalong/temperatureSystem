@@ -26,11 +26,11 @@
   </view>
   <view class='row'>
     <view class='lable'>社区名称</view>
-    <input bindtap='toCommunity' class='input' type='text' disabled='disabled'  value='A1' placeholder='请输入社区名称' />
+    <input bindtap='toCommunity' class='input' type='text' disabled='disabled'  value='{{community}}' placeholder='请输入社区名称' />
   </view>
   <view class='row'>
     <view class='lable'>楼栋编号</view>
-    <input bindtap='toBuilding' class='input' type='text' disabled='disabled'  value='A1-2' placeholder='请输入楼栋编号' />
+    <input bindtap='toBuilding' class='input' type='text' disabled='disabled'  value='{{building}}' placeholder='请输入楼栋编号' />
   </view>
   <view class='row'>
     <view class='lable'>房屋编号</view>
