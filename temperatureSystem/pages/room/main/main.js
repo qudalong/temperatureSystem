@@ -45,7 +45,7 @@ Page({
       roomList.forEach(room => {
         room.status = 1
       })
-    }else{
+    } else {
       roomList.forEach(room => {
         room.status = 0
       })
@@ -80,7 +80,7 @@ Page({
   },
 
   //调到单个房间
-  toRoom(e){
+  toRoom(e) {
     const room = e.currentTarget.dataset.room
     wx.navigateTo({
       url: `../itemRoom/itemRoom?room=${room}`,
