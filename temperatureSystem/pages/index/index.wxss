@@ -1,21 +1,98 @@
-/**index.wxss**/
-.userinfo {
+/* pages/index/index.wxss */input {
+  padding:14rpx 0 14rpx 20rpx;
+  border: 1px solid #ccc;
+  border-radius: 10rpx;
+  margin-top: 12rpx;
+  font-size: 32rpx;
+}
+.icon-weixin{
+  font-size: 56rpx;
+  color: #86DB49;
+}
+.p{
+  padding-left: 10rpx;
+}
+.main{
+  margin-top: 100rpx;
+}
+.zhanghao, .mima, .log {
+  width: 100%;
+  margin: 20rpx auto;
+}
+.mima .duanxin {
+  display: block;
+  font-size: 32rpx;
+  color: #6b6b6b;
+  margin-top: 30rpx;
+}
+
+.mima .duanxin:hover {
+  color: blue;
+}
+
+.log {
+  overflow: hidden;
+}
+
+.btn {
+  margin: 80rpx auto 30rpx;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 10rpx;
+  padding: 24rpx 0;
+  background-color: #609fbd;
+}
+
+.zhuce, .wangji {
+  font-size: 32rpx;
+  color: #6b6b6b;
+}
+
+.zhuce:hover, .wangji:hover {
+  color: blue;
+}
+
+.zhuce {
+  margin-left: 50rpx;
+  float: left;
+}
+
+.wangji {
+  margin-right: 50rpx;
+  float: right;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 150rpx;
+}
+
+.top {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+ justify-content: center;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.top .xian {
+  width: 84rpx;
+  height: 4rpx;
+  background-color: #6b6b6b;
+  margin-top: 20rpx;
 }
 
-.userinfo-nickname {
-  color: #aaa;
+.top .sanfang {
+  margin: 0 30rpx;
+  font-size: 32rpx;
+  color: #6b6b6b;
 }
 
-.usermotto {
-  margin-top: 200px;
+.top .sanfang:hover {
+  color: blue;
+}
+
+text {
+  display: block;
+  text-align: center;
+  margin-top: 20rpx;
 }

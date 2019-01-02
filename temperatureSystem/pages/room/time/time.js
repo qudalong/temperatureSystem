@@ -1,4 +1,4 @@
-// pages/login/login/login.js
+// pages/room/time/time.js
 Page({
 
   /**
@@ -15,20 +15,12 @@ Page({
 
   },
 
-  login() {
-    wx.navigateTo({
-      url: `/pages/room/main/main`
-    })
-  },
-  register() {
-    wx.navigateTo({
-      url: `/pages/register/register/register`
-    })
-  },
 
-  forgetPwd() {
+
+
+  toReport() {
     wx.navigateTo({
-      url: `/pages/login/forget/forget`,
+      url: `/pages/room/report/report`
     })
   },
 

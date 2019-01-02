@@ -4,12 +4,14 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false
+		"nodeModules": false,
+		"autoAudits": false,
+		"uglifyFileName": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.4.3",
@@ -19,6 +21,11 @@
 		"hidedInDevtools": []
 	},
 	"isGameTourist": false,
+	"scripts": {
+		"beforeCompile": "",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
 	"condition": {
 		"search": {
 			"current": -1,

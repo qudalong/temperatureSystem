@@ -9,9 +9,9 @@
     <view class='duanxin'>用短信验证码登录</view>
   </view>
   <view class='log'>
-    <view bindtap='login' class='btn'  hover-class='hover'>登录</view>
-    <view bindtap='register' class='zhuce'  hover-class='hover'>注册账号</view>
-    <view bindtap='forgetPwd' class='wangji'  hover-class='hover'>忘记密码</view>
+    <view bindtap='login' class='btn' hover-class='hover'>登录</view>
+    <view bindtap='register' class='zhuce' hover-class='hover'>注册账号</view>
+    <view bindtap='forgetPwd' class='wangji' hover-class='hover'>忘记密码</view>
   </view>
   <view class='footer'>
     <view class='top'>

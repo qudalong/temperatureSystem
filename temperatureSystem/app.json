@@ -1,16 +1,18 @@
 {
   "pages":[
-    "pages/register/register/register",
-    "pages/register/community/community",
-    "pages/login/login/login",
+    "pages/index/index",
+    "pages/room/time/time",
+    "pages/room/report/report",
     "pages/room/main/main",
+    "pages/register/register/register",
+    "pages/login/reSet/reSet",
+    "pages/login/login/login",
     "pages/room/itemRoom/itemRoom",
+    "pages/register/community/community",
     "pages/login/verifyTel/verifyTel",
     "pages/login/bindTel/bindTel",
     "pages/login/forget/forget",
-    "pages/login/reSet/reSet",
-    "pages/register/building/building",
-    "pages/index/index"
+    "pages/register/building/building"
   ],
   "window":{
     "backgroundTextStyle":"light",

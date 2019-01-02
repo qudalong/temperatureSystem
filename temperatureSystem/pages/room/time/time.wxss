@@ -1,0 +1,93 @@
+page{
+  background-color: #2a82b1
+}
+.icon-youjiantou{
+  font-size: 40rpx;
+}
+.icon-rili{
+  font-size: 100rpx;
+  position: relative;
+}
+.icon-rili .month{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size:30rpx;
+  width: 100%;
+  text-align: center;
+}
+.report{
+  flex: 1;
+  text-align: right;
+}
+.header {
+  border-radius: 40rpx;
+  background-color: #cde1ec;
+  padding: 0 10rpx 40rpx;
+}
+
+.username,.choose{
+  border-bottom: 2rpx solid #fff;
+  padding: 20rpx 0;
+  color: #fff;
+}
+.username{
+  display: flex;
+  justify-content: flex-start;
+}
+.admin{
+  margin-right: 50rpx;
+}
+.choose{
+  display: flex;
+  justify-content: space-between;
+}
+
+.neck
+{
+  margin: 30rpx 0;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.left{
+  display: flex;
+  justify-content: space-between;
+}
+.year{
+  margin-right: 50rpx;
+}
+.main{
+  padding:20rpx;
+  background-color: #fff;
+  border-radius: 40rpx;
+  display: flex;
+  align-items: center;
+}
+.icon{
+  transform: translateY(-70rpx);
+}
+.line{
+  width: 10rpx;
+  height: 400rpx;
+  background-color: #2a82b1;
+  margin: 0 20rpx;
+}
+.table{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  padding: 0 0 20rpx;
+  flex-direction: column;
+}
+.table-tr{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 25rpx 0 0;
+  border-bottom: 2rpx solid #f0f0f0;
+}
+.tinct{
+  color: red;
+}

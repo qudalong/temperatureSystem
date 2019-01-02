@@ -1,0 +1,53 @@
+<view class='header'>
+  <view class='username'>
+    <view class='admin'>用户名</view>
+    <view style='color:#000;'>maidou1</view>
+  </view>
+  <view class='choose'>
+    <view class='chooseroom'>选择房间</view>
+    <text class='iconfont icon-youjiantou'></text>
+  </view>
+</view>
+<view class='neck'>
+  <view class='left'>
+    <view class='year'>2018年</view>
+    <view class='room'>房间1</view>
+  </view>
+  <view class='right report' bindtap='toReport'>报表跳转</view>
+</view>
+<view class='main'>
+  <view class='iconfont icon-rili'>
+    <text class='month'>12月</text>
+  </view>
+  <view class='line'></view>
+  <view class='table'>
+    <view class='table-tr'>
+      <view>空调总耗能</view>
+      <view class='tinct'>200.5kwh</view>
+    </view>
+    <view class='table-tr'>
+      <view>高速</view>
+      <view>200h</view>
+    </view>
+    <view class='table-tr'>
+      <view>中速</view>
+      <view>200h</view>
+    </view>
+    <view class='table-tr'>
+      <view>低速</view>
+      <view>200h</view>
+    </view>
+    <view class='table-tr'>
+      <view>基本费</view>
+      <view>￥200</view>
+    </view>
+    <view class='table-tr'>
+      <view>月计量费</view>
+      <view>￥200</view>
+    </view>
+    <view class='table-tr'>
+      <view>费用总计</view>
+      <view>￥400</view>
+    </view>
+  </view>
+</view>
